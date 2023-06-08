@@ -1,0 +1,25 @@
+{
+    "name": "Soulfoul Serenity",
+    "description": "an ai generated piece inspired by our artists",
+    "image": "https://bronze-positive-lion-862.mypinata.cloud/ipfs/QmR8uaikD2K2y3BAu2a7TQqDev16qiknmyTPLnnpJKjwTS/soulful_serenity_3.png",
+    "attributes": [
+      
+      {
+        "display_type": "date", 
+        "trait_type": "painted on", 
+        "value": 1685786836
+      },
+
+      {
+        "value": "digital"
+      },
+
+      {
+        "trait_type": "Artist", 
+        "value": "Dall-E 2"
+      }
+    
+    
+      ]
+    
+}
