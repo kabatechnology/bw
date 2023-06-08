@@ -13,7 +13,7 @@ contract Kaba is ERC1155, Ownable {
  mapping(bytes32 => NFTVoucher) public vouchers;
  uint public nextId = 1;
 
- constructor()ERC1155("https://gateway.pinata.cloud/ipfs/QmeqZUGsnmyQajVdLA3w4ipyTD8eyhhG5bk4cY12ZNNf1x/{id}.json") {
+ constructor()ERC1155("https://gateway.pinata.cloud/ipfs/QmfQWtRiysUcrVU1ZrBdv3usUnP9Tehb6RBh5TnnXw5XBR/{id}.json") {
 
  }
 
@@ -24,7 +24,7 @@ contract Kaba is ERC1155, Ownable {
  }
 
  function contractURI() public pure returns (string memory) {
- return "https://gateway.pinata.cloud/ipfs/QmeqZUGsnmyQajVdLA3w4ipyTD8eyhhG5bk4cY12ZNNf1x/{id}.json";
+ return "https://gateway.pinata.cloud/ipfs/QmfQWtRiysUcrVU1ZrBdv3usUnP9Tehb6RBh5TnnXw5XBR/{id}.json";
  }
 
  function mint(string memory code) public {
